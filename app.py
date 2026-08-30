@@ -1,7 +1,7 @@
 import streamlit as st
 
-from src.agent import summarize_youtube
-from src.utils import extract_video_id
+from src.youtube_summarizer_agent.agent import summarize_youtube
+from src.youtube_summarizer_agent.utils import extract_video_id
 
 
 # ---------------------------------------------------------------------------
